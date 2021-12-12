@@ -98,7 +98,7 @@
   }
 
   .infographic {
-    display: flex;
+    display: block;
   }
 
   @media (max-width: 650px) {
