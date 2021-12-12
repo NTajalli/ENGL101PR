@@ -29,6 +29,7 @@
   .box {
     float: none;
     width: 100%;
+    height: 500px;
   }
   
   #about-info .info-right,
@@ -65,5 +66,55 @@
     display: flex;
     flex-direction: column;
   }
+
+  .info-img1 {
+    display: none;
+  }
+  .info-img2 {
+    display: none;
+  }
+
+  .info-content {
+    width: 100% !important;
+  }
+
+  #home-info {
+    height: 900px;
+  }
+
+  #contact-info .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  #contact-info .box {
+    height: 150px;
+    padding: 10px;
+    border-top: black 1px solid;
+    width: 100%;
+    padding: 15px 0px;
+  }
+
+  .infographic {
+    display: flex;
+  }
+
+  @media (max-width: 650px) {
+    #home-info {
+      height: 1500px;
+    }
+
+    #showcase {
+      height: 600px;
+    }
+
+    .box {
+      height: 600px;
+    }
+  }
+
+  
   
 
