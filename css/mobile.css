@@ -99,6 +99,7 @@
 
   .infographic {
     display: block;
+    height: 703px;
   }
 
   @media (max-width: 650px) {
