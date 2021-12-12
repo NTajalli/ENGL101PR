@@ -164,19 +164,26 @@ p {
 }
 
 #home-info {
-  height: 840px;
+  height: 375px;
   border-bottom: 1px #333 solid;
 }
 
-#home-info .info-img {
+#home-info .info-img1 {
   float: left;
-  width: 28%;
-  background: url("../imgs/automationandaiinforgraphic.png") no-repeat;
+  width: 25%;
+  background: url("../imgs/Tophalfinfo.png") no-repeat;
+  min-height: 100%;
+}
+
+#home-info .info-img2 {
+  float: left;
+  width: 25%;
+  background: url("../imgs/bottomhalfinfo.png") no-repeat;
   min-height: 100%;
 }
 
 #home-info .info-content {
-  width: 72%;
+  width: 50%;
   height: 100%;
   float: right;
   text-align: center;
@@ -189,10 +196,16 @@ p {
 }
 
 .box {
+  height: 350px;
   float: left;
   width: 33.3%;
   padding: 50px;
   text-align: center;
+  margin-bottom: 0px;
+}
+
+.box li {
+  text-align:start !important;
 }
 
 #about h1 {
@@ -243,6 +256,10 @@ text-align: center !important;
   padding-bottom: 40px;
 }
 
+.bg-primary a {
+  color: white;
+}
+
 #about-testimonials .testimonial img {
   width: 100px;
   border-radius: 50%;
@@ -288,4 +305,17 @@ text-align: center !important;
 
 .box a:hover {
   text-decoration: underline;
+}
+
+.box ul {
+  list-style-type: decimal;
+  color: #333;
+}
+
+.info-content p {
+ text-align: left;
+}
+
+.info-content a {
+  padding-top: 7px;
 }
