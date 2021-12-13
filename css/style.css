@@ -164,26 +164,31 @@ p {
 }
 
 #home-info {
-  height: 375px;
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
   border-bottom: 1px #333 solid;
 }
 
 #home-info .info-img1 {
   float: left;
+  flex-wrap: wrap;
   width: 25%;
-  background: url("../imgs/Tophalfinfo.png") no-repeat;
+  background: url("../imgs/Tophalfinfo.jpg") no-repeat;
   min-height: 100%;
+  min-width: 470px;
 }
 
 #home-info .info-img2 {
   float: left;
   width: 25%;
-  background: url("../imgs/bottomhalfinfo.png") no-repeat;
+  background: url("../imgs/bottomhalfinfo.jpg") no-repeat;
   min-height: 100%;
+  min-width: 470px;
 }
 
 #home-info .info-content {
-  width: 50%;
+  max-width: 50%;
   height: 100%;
   float: right;
   text-align: center;
